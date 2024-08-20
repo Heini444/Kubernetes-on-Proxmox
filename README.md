@@ -7,4 +7,5 @@ Cloud-init & PXE - https://cloudinit.readthedocs.io/
 Kubeadm - https://kubernetes.io/docs/reference/setup-tools/kubeadm/
 Cilium - https://cilium.io/
 VM PCI passthrough - https://pve.proxmox.com/wiki/PCI%28e%29_Passthrough
-
+#Create new user on proxmox for provisioning, ref terraform article
+https://registry.terraform.io/providers/Telmate/proxmox/latest/docs#creating-the-proxmox-user-and-role-for-terraform
