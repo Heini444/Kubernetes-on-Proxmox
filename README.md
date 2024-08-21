@@ -9,3 +9,8 @@ Cilium - https://cilium.io/
 VM PCI passthrough - https://pve.proxmox.com/wiki/PCI%28e%29_Passthrough
 #Create new user on proxmox for provisioning, ref terraform article
 https://registry.terraform.io/providers/Telmate/proxmox/latest/docs#creating-the-proxmox-user-and-role-for-terraform
+#create ssh key for cloud-init vm user
+ssh-keygen -t ed25519 -C "<EMAIL>"
+#create a password for use with sudo. don’t provide a clear-text password, but a hashed version.
+mkpasswd
+docker run -it --rm alpine mkpasswd --method=SHA-512 <PASSWORD>
