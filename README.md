@@ -1,6 +1,7 @@
 # Kubernetes-on-Proxmox
 ```
 Proxmox 8.x
+```
 Debian 12 -  Talos maybe later
 OpenTofu (Terraform) - https://opentofu.org/docs/intro/install/deb/
 Terraform Provider for Proxmox - https://github.com/bpg/terraform-provider-proxmox
