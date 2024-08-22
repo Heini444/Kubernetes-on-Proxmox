@@ -13,7 +13,7 @@ provider "proxmox" {
   endpoint = var.ussvirt.endpoint
   insecure = var.ussvirt.insecure
 
-  api_token = var.ussvirt.api_token
+  api_token = var.ussvirt_auth.api_token
   ssh {
     agent    = true
     username = var.ussvirt_auth.username
